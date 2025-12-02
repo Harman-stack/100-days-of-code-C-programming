@@ -1,0 +1,37 @@
+Q4: Write a program to calculate the area and circumference of a circle given its radius.
+
+/*
+Sample Test Cases:
+Input 1:
+7
+Output 1:
+Area=153.94, Circumference=43.96
+
+Input 2:
+3
+Output 2:
+Area=28.27, Circumference=18.85
+
+*/ without comments
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    float r;
+    scanf("%f", &r);
+    float area = M_PI * r * r;
+    float circ = 2 * M_PI * r;
+    printf("Area=%.2f, Circumference=%.2f", area, circ);
+    return 0;
+}
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    float r;
+    scanf("%f", &r);
+    float area = M_PI * r * r;
+    float circ = 2 * M_PI * r;
+    printf("Area=%.2f, Circumference=%.2f", area, circ);
+    return 0;
+}
